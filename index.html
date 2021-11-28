@@ -300,7 +300,7 @@
             search: "",
             lengthMenu: "Affichage _MENU_ lignes/page",
             zeroRecords: "Aucune donnée trouvée",
-            info: "Affichage de la page _PAGE_ sur _PAGES_",
+            info: "Affichage de la page _PAGE_ sur _PAGES_ (_MAX_)",
             infoEmpty: "Aucune donnée trouvée",
             infoFiltered: "(filtered from _MAX_ total records)",
             oPaginate: {
@@ -310,8 +310,8 @@
           },
           orderCellsTop: true,
           fixedHeader: false,
-          ajax: { url:'https://raw.githubusercontent.com/enimaamen/damanecash/main/dataDC.txt' },/*"dataDC.txt",*/
-          displayLength: 50,
+          ajax: { url:'https://raw.githubusercontent.com/enimaamen/damanecash/main/dataDC.txt' },
+          displayLength: 100,
         });
       });
     </script>
